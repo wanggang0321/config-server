@@ -8,14 +8,13 @@ public class SyncException {
             try {
                 i++;
                 System.out.println(i);
-                if (i == 10) {
+                if (i == 3) {
                     Integer.parseInt("a");
                 }
                 Thread.sleep(1000);
             } catch (Exception e) {
                 e.printStackTrace();
-
-                throw e;
+                throw new RuntimeException();
             }
         }
     }
