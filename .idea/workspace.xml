@@ -331,7 +331,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -571,7 +571,7 @@
       <workItem from="1504522326086" duration="2505000" />
       <workItem from="1504619330391" duration="1596000" />
       <workItem from="1505220999957" duration="6510000" />
-      <workItem from="1505308234524" duration="1253000" />
+      <workItem from="1505308234524" duration="2038000" />
     </task>
     <task id="LOCAL-00001" summary="volatile关键字">
       <created>1503833813104</created>
@@ -629,11 +629,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505308584855</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="复习：线程基础">
+      <created>1505309494091</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1505309494091</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43102000" />
+    <option name="totallyTimeSpent" value="43887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
