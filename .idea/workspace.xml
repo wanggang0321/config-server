@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f109b1d2-644f-430b-bd0c-e78e01324212" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/future/Data.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/future/FutureClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/future/FutureData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/future/RealData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/sync005/StringLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0912/MultiThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0912/MyObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0912/MyThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread091201/DirtyRead.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/threadbase/thread0831/MultiThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/threadbase/thread0831/MyThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ppdtbb/queue001/UseQueue.java" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/queue001/UseQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ppdtbb/sync005/SyncException.java" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/sync005/SyncException.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -584,7 +571,7 @@
       <workItem from="1504522326086" duration="2505000" />
       <workItem from="1504619330391" duration="1596000" />
       <workItem from="1505220999957" duration="6510000" />
-      <workItem from="1505308234524" duration="329000" />
+      <workItem from="1505308234524" duration="1253000" />
     </task>
     <task id="LOCAL-00001" summary="volatile关键字">
       <created>1503833813104</created>
@@ -635,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504016000226</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="复习：线程基础">
+      <created>1505308584854</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1505308584855</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42178000" />
+    <option name="totallyTimeSpent" value="43102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -685,7 +679,8 @@
     <MESSAGE value="单例模式，最常见的就是饥饿模式和懒汉模式，一个直接实例化对象，一个在调用方法时进行实例化对象。在多线程模式中，考虑到性能和线程安全问题，我们一般选择下面两种比较经典的单例模式，在性能提高的同时，又保证了线程安全。&#10;&#9;dubble check instance&#10;&#9;static inner class" />
     <MESSAGE value="ConcurrentMap、CopyOnWrite" />
     <MESSAGE value="ConcurrentLinkedQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="ConcurrentLinkedQueue" />
+    <MESSAGE value="复习：线程基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="复习：线程基础" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -943,6 +938,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -950,6 +946,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#441#442#0" expanded="false" />
+            <element signature="e#470#471#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -957,6 +957,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -964,6 +965,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
