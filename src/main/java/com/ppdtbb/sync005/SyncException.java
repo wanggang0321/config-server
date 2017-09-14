@@ -2,19 +2,21 @@ package com.ppdtbb.sync005;
 
 public class SyncException {
 
-    private void print() throws Exception{
+    private void print(){
         int i = 0;
         while (true) {
             try {
                 i++;
+                Thread.sleep(500);
                 System.out.println(i);
                 if (i == 3) {
                     Integer.parseInt("a");
                 }
-                Thread.sleep(1000);
+                //Thread.sleep(1000);
             } catch (Exception e) {
                 e.printStackTrace();
-                throw new RuntimeException();
+                //throw new RuntimeException();
+                //continue;
             }
         }
     }
@@ -23,11 +25,11 @@ public class SyncException {
         final SyncException sync = new SyncException();
         Thread thread = new Thread(new Runnable() {
             public void run() {
-                try {
+                //try {
                     sync.print();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                //} catch (Exception e) {
+                //    e.printStackTrace();
+                //}
             }
         }, "t1");
 
