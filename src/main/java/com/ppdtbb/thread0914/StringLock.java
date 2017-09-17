@@ -3,8 +3,13 @@ package com.ppdtbb.thread0914;
 public class StringLock {
 
     public void method() {
+
         String str = new String("字符串常量");
+        System.out.println(Thread.currentThread().getName() + " 线程执行了：" + str);
+
         //String str = "字符串常量";
+        //1. 如果使用str作为锁，t1 和 t2 会并行执行
+        //2. 如果使用 "字符串常量" 作为锁，t1 和 t2 会串行执行
         synchronized (str) {
             try {
                 while (true) {
@@ -23,21 +28,19 @@ public class StringLock {
         StringLock sl = new StringLock();
 
         Thread t1 = new Thread(new Runnable() {
-            @Override
             public void run() {
                 sl.method();
             }
-        }, "t1");
+        }, "t11");
 
         Thread t2 = new Thread(new Runnable() {
-            @Override
             public void run() {
                 sl.method();
             }
-        }, "t2");
+        }, "t22");
 
-        t1.start();
         t2.start();
+        t1.start();
     }
 
 }
