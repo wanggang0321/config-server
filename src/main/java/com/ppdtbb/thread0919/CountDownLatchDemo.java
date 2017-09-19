@@ -8,7 +8,7 @@ public class CountDownLatchDemo {
 
     final static SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     public static void main(String[] args) throws InterruptedException {
-        CountDownLatch latch=new CountDownLatch(3);//两个工人的协作
+        CountDownLatch latch=new CountDownLatch(2);//两个工人的协作
         Worker worker1=new Worker("张三", 5000, latch);
         Worker worker2=new Worker("李四", 8000, latch);
         worker1.start();//
