@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f109b1d2-644f-430b-bd0c-e78e01324212" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/ConnThreadLocal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0921/HungleSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0921/Singleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/DoubleSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/InnerSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/Outer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,80 +21,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConnThreadLocal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/ConnThreadLocal.java">
+      <file leaf-file-name="InnerSingleton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/InnerSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#160#168#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton.java">
+      <file leaf-file-name="DoubleSingleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/DoubleSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="51" column="5" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-              <folding>
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-              <folding>
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#1035#1036#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-              <folding>
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton4.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,9 +106,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0919/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/ConnThreadLocal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0921/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0921/HungleSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/Outer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/InnerSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/DoubleSingleton.java" />
       </list>
     </option>
   </component>
@@ -195,9 +143,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="997" />
+    <option name="x" value="693" />
+    <option name="y" value="7" />
     <option name="width" value="1400" />
-    <option name="height" value="1047" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -279,6 +228,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,7 +282,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ppdtbb" type="462c0819:PsiDirectoryNode" />
-              <item name="thread0920" type="462c0819:PsiDirectoryNode" />
+              <item name="thread0921" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="config-server" type="b2602c69:ProjectViewProjectNode" />
@@ -339,8 +292,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ppdtbb" type="462c0819:PsiDirectoryNode" />
-              <item name="thread0920" type="462c0819:PsiDirectoryNode" />
-              <item name="Singleton" type="1a9f42e2:ClassTreeNode" />
+              <item name="thread0921" type="462c0819:PsiDirectoryNode" />
+              <item name="HungleSingleton" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="config-server" type="b2602c69:ProjectViewProjectNode" />
@@ -350,28 +303,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ppdtbb" type="462c0819:PsiDirectoryNode" />
-              <item name="thread0920" type="462c0819:PsiDirectoryNode" />
-              <item name="Singleton1" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="config-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ppdtbb" type="462c0819:PsiDirectoryNode" />
-              <item name="thread0920" type="462c0819:PsiDirectoryNode" />
-              <item name="Singleton4" type="1a9f42e2:ClassTreeNode" />
+              <item name="thread0924" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,15 +332,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Singleton4">
-    <configuration name="ConnThreadLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Outer">
+    <configuration name="Outer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ppdtbb.thread0920.*" />
+          <option name="PATTERN" value="com.ppdtbb.thread0924.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ppdtbb.thread0920.ConnThreadLocal" />
+      <option name="MAIN_CLASS_NAME" value="com.ppdtbb.thread0924.Outer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -415,14 +352,14 @@
       <module name="config-server" />
       <envs />
     </configuration>
-    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Singleton (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ppdtbb.thread0919.*" />
+          <option name="PATTERN" value="com.ppdtbb.thread0921.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ppdtbb.thread0919.MyQueue" />
+      <option name="MAIN_CLASS_NAME" value="com.ppdtbb.thread0921.Singleton" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -573,19 +510,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MyQueue" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ConnThreadLocal" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Singleton" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Singleton3" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Singleton4" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Singleton" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Singleton3" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Singleton4" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Singleton (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Outer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Singleton4" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Singleton3" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Outer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Singleton (1)" />
         <item index="2" class="java.lang.String" itemvalue="Application.Singleton" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ConnThreadLocal" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MyQueue" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Singleton4" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Singleton3" />
       </list>
     </recent_temporary>
   </component>
@@ -623,7 +560,9 @@
       <workItem from="1505621608439" duration="4701000" />
       <workItem from="1505736425019" duration="4919000" />
       <workItem from="1505818641654" duration="6083000" />
-      <workItem from="1505907902528" duration="5948000" />
+      <workItem from="1505907902528" duration="6032000" />
+      <workItem from="1505994445724" duration="2569000" />
+      <workItem from="1506231939773" duration="2986000" />
     </task>
     <task id="LOCAL-00001" summary="volatile关键字">
       <created>1503833813104</created>
@@ -730,14 +669,21 @@
       <option name="project" value="LOCAL" />
       <updated>1505829677216</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1.ThreadLocal&#10;2.单例模式，以及多线程下的单例模式的实现">
+      <created>1505918297533</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1505918297533</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80365000" />
+    <option name="totallyTimeSpent" value="86004000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="997" y="0" width="1400" height="1047" extended-state="0" />
+    <frame x="693" y="7" width="1400" height="1001" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -748,18 +694,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3047404" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32380953" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25447762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26044777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39954853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3952381" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -784,30 +730,23 @@
     <MESSAGE value="volatile关键字" />
     <MESSAGE value="CountDownLatch使用方法" />
     <MESSAGE value="wait/notify模拟实现BlockingQueue" />
-    <option name="LAST_COMMIT_MESSAGE" value="wait/notify模拟实现BlockingQueue" />
+    <MESSAGE value="1.ThreadLocal&#10;2.单例模式，以及多线程下的单例模式的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.ThreadLocal&#10;2.单例模式，以及多线程下的单例模式的实现" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton1.java</url>
+          <line>17</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ppdtbb.thread0820/DirtyRead.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ppdtbb.thread0820/MyThread.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ppdtbb.thread0820/MultiThread.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com.ppdtbb.thread0820/DirtyRead.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/sync005/RunThread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1024,12 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="62" column="5" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#1185#1186#0" expanded="false" />
-            <element signature="e#1246#1247#0" expanded="false" />
-            <element signature="e#1367#1368#0" expanded="false" />
-            <element signature="e#1428#1429#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,10 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#655#656#0" expanded="false" />
-            <element signature="e#698#699#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,10 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="e#445#446#0" expanded="false" />
-            <element signature="e#471#472#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,9 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,13 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#209#210#0" expanded="false" />
-            <element signature="e#242#243#0" expanded="false" />
-            <element signature="e#265#266#0" expanded="false" />
-            <element signature="e#299#300#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1083,9 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1093,9 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,13 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#233#234#0" expanded="false" />
-            <element signature="e#266#267#0" expanded="false" />
-            <element signature="e#291#292#0" expanded="false" />
-            <element signature="e#325#326#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,36 +1019,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/ConnThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#160#168#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#238#239#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#861#862#0" expanded="false" />
+            <element signature="e#948#949#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding>
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,39 +1061,69 @@
         <state relative-caret-position="76">
           <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="false" />
+            <element signature="e#323#324#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="51" column="5" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="342">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0921/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="false" />
+            <element signature="e#976#977#0" expanded="false" />
+            <element signature="e#1097#1098#0" expanded="false" />
+            <element signature="e#1183#1184#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0920/Singleton4.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0921/HungleSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="209">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="false" />
+            <element signature="e#260#261#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/Outer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#342#343#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/InnerSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ppdtbb/thread0924/DoubleSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
